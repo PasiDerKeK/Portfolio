@@ -1,21 +1,18 @@
-const isGithubPages = import.meta.env.BASE_URL && import.meta.env.BASE_URL !== "/";
+import profile from "../data/profile.json";
+import skills from "../data/skills.json";
+import projects from "../data/projects.json";
 
-// Lokal: Backend nutzen (falls vorhanden). Auf GitHub Pages: statische JSONs.
-const API_BASE = isGithubPages ? `${import.meta.env.BASE_URL}data` : "/api";
+// Damit bleiben deine Pages unverändert (HomePage/ProjectsPage/...)
+// und GitHub Pages braucht kein Backend.
 
-async function handle(res) {
-    if (!res.ok) throw new Error(`Request failed: ${res.status}`);
-    return res.json();
+export async function fetchProfile() {
+    return profile;
 }
 
-export function fetchProfile() {
-    return fetch(`${API_BASE}/profile.json`).then(handle);
+export async function fetchSkills() {
+    return skills;
 }
 
-export function fetchSkills() {
-    return fetch(`${API_BASE}/skills.json`).then(handle);
-}
-
-export function fetchProjects() {
-    return fetch(`${API_BASE}/projects.json`).then(handle);
+export async function fetchProjects() {
+    return projects;
 }

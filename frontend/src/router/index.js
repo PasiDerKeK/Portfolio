@@ -1,17 +1,9 @@
-import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "../pages/HomePage.vue";
-import ProjectsPage from "../pages/ProjectsPage.vue";
-import LanguagesPage from "../pages/LanguagesPage.vue";
-import ContactPage from "../pages/ContactPage.vue";
+import { createRouter, createWebHashHistory } from "vue-router";
+// statt createWebHistory
 
-const routes = [
-    { path: "/", name: "home", component: HomePage },
-    { path: "/projects", name: "projects", component: ProjectsPage },
-    { path: "/languages", name: "languages", component: LanguagesPage },
-    { path: "/contact", name: "contact", component: ContactPage }
-];
-
-export default createRouter({
-    history: createWebHistory(),
+const router = createRouter({
+    history: createWebHashHistory(),
     routes
 });
+
+export default router;
