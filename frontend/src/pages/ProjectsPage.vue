@@ -1,0 +1,172 @@
+<script setup>
+import { ref, onMounted } from "vue";
+import { fetchProjects } from "../services/api.js";
+
+const projects = ref([]);
+const loading = ref(true);
+const error = ref("");
+
+// Fallback-Projekte (wenn Backend leer ist)
+const fallbackProjects = [
+  {
+    id: 1,
+    title: "Persönliches Portfolio",
+    description: "Vue SPA + Node/Express Backend. Modular und leicht pflegbar.",
+    type: "Full-Stack",
+    stack: ["Vue", "Node.js", "Express", "Git/GitHub"],
+    github: "#",
+    demo: null,
+    image: null
+  },
+  {
+    id: 2,
+    title: "Tasks API",
+    description: "REST-API mit Auth/Rollen und Tests, Docker-ready.",
+    type: "Backend",
+    stack: ["Python", "FastAPI", "PostgreSQL", "Docker"],
+    github: "#",
+    demo: null,
+    image: null
+  },
+  {
+    id: 3,
+    title: "Monitoring Dashboard",
+    description: "Realtime Dashboard mit WebSockets und responsive UI.",
+    type: "Frontend",
+    stack: ["Vue", "Node.js", "WebSockets"],
+    github: "#",
+    demo: null,
+    image: null
+  }
+];
+
+onMounted(async () => {
+  try {
+    const data = await fetchProjects();
+
+    // Wenn Backend leer ist -> Fallback anzeigen
+    projects.value = Array.isArray(data) && data.length ? data : fallbackProjects;
+  } catch (e) {
+    console.error(e);
+    error.value = "Projekte konnten nicht geladen werden.";
+    projects.value = fallbackProjects;
+  } finally {
+    loading.value = false;
+  }
+});
+</script>
+
+<template>
+  <section>
+    <h2 class="section-title">Projekte</h2>
+
+    <p v-if="loading" class="p">Lade Projekte…</p>
+    <p v-else-if="error" class="p" style="color:#ef4444">{{ error }}</p>
+
+    <div v-else class="projects-grid">
+      <article v-for="p in projects" :key="p.id" class="project-card">
+        <!-- Bild / Preview oben -->
+        <div class="project-img">
+          <template v-if="p.image">
+            <img :src="p.image" :alt="p.title" />
+          </template>
+          <template v-else>
+            <span>Vorschaubild</span>
+          </template>
+        </div>
+
+        <div class="project-body">
+          <div class="project-meta">
+            <h3 class="project-title">{{ p.title }}</h3>
+            <span class="project-type">{{ p.type }}</span>
+          </div>
+
+          <p class="project-desc">{{ p.description }}</p>
+
+          <div class="chip-row" style="margin-top:10px">
+            <span v-for="s in p.stack" :key="s" class="chip">{{ s }}</span>
+          </div>
+
+          <div class="project-actions">
+            <a v-if="p.github" class="btn" :href="p.github" target="_blank">🐙 GitHub</a>
+            <a v-if="p.demo" class="btn btn-primary" :href="p.demo" target="_blank">🔗 Demo</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+</template>
+
+<style scoped>
+/* Nur Projects-Page Styling – ändert nichts an Home */
+.projects-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.project-card{
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.project-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(2, 6, 23, .12);
+}
+
+.project-img{
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(135deg, rgba(37,99,235,.12), rgba(20,184,166,.10));
+  border-bottom: 1px solid var(--border);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.project-img img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+.project-body{ padding: 14px; }
+
+.project-meta{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-start;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.project-title{
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.project-type{
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.project-desc{
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.project-actions{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top: 12px;
+}
+</style>

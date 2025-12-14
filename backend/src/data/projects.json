@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "title": "Portfolio",
+    "description": "Vue + Node Portfolio für Bewerbungen.",
+    "type": "Full-Stack",
+    "stack": ["Vue", "Node.js", "Express", "Git/GitHub"],
+    "github": "https://github.com/Bohnbena/portfolio-AP",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": 2,
+    "title": "JAVA Spigot Plugin",
+    "description": "Java Plugin über die Spigot API für Minecraft",
+    "type": "Full-Stack",
+    "stack": ["JAVA", "MySQL", "Kotlin", "Git/GitHub"],
+    "github": "https://github.com/PasiDerKeK/LaidBackReallife-Basic",
+    "demo": null,
+    "image": null
+  }
+]
