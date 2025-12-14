@@ -1,0 +1,13 @@
+{
+  "languages": ["Python", "C#", "Java", "Node.js", "JavaScript", "HTML5", "CSS3"],
+  "frontend": ["Vue", "SPA", "Responsive Design"],
+  "backend": [
+    "REST-APIs",
+    "Microservices",
+    "SQL",
+    "Express",
+    "ASP.NET Core",
+    "Spring Boot"
+  ],
+  "tools": ["Git", "GitHub", "Docker", "CI/CD", "Unit-Testing"]
+}
