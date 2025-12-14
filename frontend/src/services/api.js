@@ -1,35 +1,21 @@
-// frontend/src/services/api.js
+const isGithubPages = import.meta.env.BASE_URL && import.meta.env.BASE_URL !== "/";
 
-function isDev() {
-    return import.meta.env.DEV;
-}
+// Lokal: Backend nutzen (falls vorhanden). Auf GitHub Pages: statische JSONs.
+const API_BASE = isGithubPages ? `${import.meta.env.BASE_URL}data` : "/api";
 
-// In DEV: Backend via Proxy (/api -> localhost:4000)
-// In PROD (GitHub Pages): statische Dateien aus /data/...
-const API_BASE = isDev()
-    ? "/api"
-    : `${import.meta.env.BASE_URL}data`;
-
-async function getJson(url) {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+async function handle(res) {
+    if (!res.ok) throw new Error(`Request failed: ${res.status}`);
     return res.json();
 }
 
 export function fetchProfile() {
-    return isDev()
-        ? getJson(`${API_BASE}/profile`)
-        : getJson(`${API_BASE}/profile.json`);
+    return fetch(`${API_BASE}/profile.json`).then(handle);
 }
 
 export function fetchSkills() {
-    return isDev()
-        ? getJson(`${API_BASE}/skills`)
-        : getJson(`${API_BASE}/skills.json`);
+    return fetch(`${API_BASE}/skills.json`).then(handle);
 }
 
 export function fetchProjects() {
-    return isDev()
-        ? getJson(`${API_BASE}/projects`)
-        : getJson(`${API_BASE}/projects.json`);
+    return fetch(`${API_BASE}/projects.json`).then(handle);
 }
