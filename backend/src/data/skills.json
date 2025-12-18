@@ -1,13 +1,28 @@
 {
-  "languages": ["Python", "C#", "Java", "Node.js", "JavaScript", "HTML5", "CSS3"],
-  "frontend": ["Vue", "SPA", "Responsive Design"],
-  "backend": [
-    "REST-APIs",
-    "Microservices",
-    "SQL",
-    "Express",
-    "ASP.NET Core",
-    "Spring Boot"
+  "programmingLanguages": [
+    "Python",
+    "C#",
+    "Java",
+    "JavaScript"
   ],
-  "tools": ["Git", "GitHub", "Docker", "CI/CD", "Unit-Testing"]
+
+  "frontend": {
+    "frameworks": ["Vue"],
+    "concepts": ["SPA", "Responsive Design"],
+    "technologies": ["HTML5", "CSS3"]
+  },
+
+  "backend": {
+    "frameworks": ["Spring Boot", "ASP.NET Core", "Express"],
+    "concepts": ["REST-APIs", "Microservices"],
+    "databases": ["SQL"]
+  },
+
+  "tools": [
+    "Git",
+    "GitHub",
+    "Docker",
+    "CI/CD",
+    "Unit-Testing"
+  ]
 }

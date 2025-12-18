@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Finally ready">
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Language Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/data/skills.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/LanguagesPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LanguagesPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +127,7 @@
       <workItem from="1765283446755" duration="2904000" />
       <workItem from="1765714151200" duration="8673000" />
       <workItem from="1765991468741" duration="3784000" />
-      <workItem from="1766043061264" duration="371000" />
+      <workItem from="1766043061264" duration="924000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -185,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765997476778</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Language Changes">
+      <option name="closed" value="true" />
+      <created>1766043666752</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1766043666752</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +207,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Try to Publish" />
     <MESSAGE value="Finally ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finally ready" />
+    <MESSAGE value="Language Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language Changes" />
   </component>
 </project>
