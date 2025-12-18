@@ -11,8 +11,8 @@ meine Kenntnisse in **Frontend-, Backend- und Full-Stack-Entwicklung**.
 ## 📸 Vorschau
 
 > Lokale Entwicklung:  
-> https://www.qnert.de/
-
+> [🌐 Live Website](https://www.qnert.de/)
+> 
 ---
 
 ## 🧠 Features
