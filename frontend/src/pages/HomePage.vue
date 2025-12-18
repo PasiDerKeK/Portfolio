@@ -1,4 +1,4 @@
-<script setup>
+<script setup xmlns="http://www.w3.org/1999/html">
 import { ref, onMounted, computed } from "vue";
 import { fetchProfile } from "../services/api.js";
 import { useRouter } from "vue-router";

@@ -8,8 +8,9 @@ const error = ref("");
 
 // Deine echten Sprachen
 const humanLanguages = [
-  { name: "Deutsch", level: "Muttersprache" },
-  { name: "Englisch", level: "Gut in Wort und Schrift" }
+  { name: "Polnisch", level: "Erstsprache" },
+  { name: "Deutsch", level: "Zweitsprache" },
+  { name: "Englisch", level: "Schulisch erlernte Fremdsprache" }
 ];
 
 // Icon-Map (Devicon CDN)
