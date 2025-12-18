@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Language Changes">
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="projects.json angepasst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <workItem from="1765714151200" duration="8673000" />
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
-      <workItem from="1766045349401" duration="329000" />
+      <workItem from="1766045349401" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -201,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766044046999</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="projects.json angepasst">
+      <option name="closed" value="true" />
+      <created>1766045692667</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1766045692667</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +234,7 @@
     <MESSAGE value="Try to Publish" />
     <MESSAGE value="Finally ready" />
     <MESSAGE value="Language Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Language Changes" />
+    <MESSAGE value="projects.json angepasst" />
+    <option name="LAST_COMMIT_MESSAGE" value="projects.json angepasst" />
   </component>
 </project>
