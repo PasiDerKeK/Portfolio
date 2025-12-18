@@ -11,9 +11,7 @@ meine Kenntnisse in **Frontend-, Backend- und Full-Stack-Entwicklung**.
 ## 📸 Vorschau
 
 > Lokale Entwicklung:  
-> http://localhost:5173
-
-(Deployment-Link kann hier später ergänzt werden)
+> https://https://www.qnert.de/
 
 ---
 
