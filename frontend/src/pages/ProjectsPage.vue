@@ -71,7 +71,7 @@ onMounted(async () => {
             <img :src="p.image" :alt="p.title" />
           </template>
           <template v-else>
-            <span>Vorschaubild</span>
+            <span>In Arbeit...</span>
           </template>
         </div>
 
