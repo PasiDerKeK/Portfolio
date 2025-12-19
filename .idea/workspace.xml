@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Bild Portfolio in projects">
-      <change afterPath="$PROJECT_DIR$/frontend/public/Q.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/public/Q.jpg" beforeDir="false" />
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Icon geändert">
+      <change beforePath="$PROJECT_DIR$/frontend/public/Projects_Portfolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/projects/Projects_Portfolio.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,11 +80,11 @@
       <recent name="C:\Website\Portfolio\frontend\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\public\projects" />
       <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\public" />
       <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\src\assets" />
       <recent name="C:\Website\Portfolio\frontend\public" />
       <recent name="C:\Website\Portfolio\frontend\src\components" />
-      <recent name="C:\Website\Portfolio\frontend\src\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -134,7 +132,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="1603000" />
+      <workItem from="1766134658221" duration="1715000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -264,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766136074299</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Icon geändert">
+      <option name="closed" value="true" />
+      <created>1766136285387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1766136285387</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +300,7 @@
     <MESSAGE value="Data von backend auf frontend umgestellt,&#10;Dynamisch -&gt; Statisch" />
     <MESSAGE value="Test für data" />
     <MESSAGE value="Bild Portfolio in projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bild Portfolio in projects" />
+    <MESSAGE value="Icon geändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Icon geändert" />
   </component>
 </project>
