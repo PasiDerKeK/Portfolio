@@ -132,6 +132,7 @@ a:hover{ text-decoration: underline; }
         flex-direction: column;
         gap: 10px;
         z-index: 100;
+        user-select: none;
     }
 
     .nav.open {
