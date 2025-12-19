@@ -28,7 +28,7 @@ function checkCode() {
     <h2 class="section-title">🎁 Geheimes Feature</h2>
     <div class="secret-box">
       <input
-          v-model="code"
+          v-model="inputCode"
           placeholder="Code eingeben"
           @keyup.enter="checkCode"
           class="secret-input"
