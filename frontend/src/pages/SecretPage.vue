@@ -9,10 +9,14 @@ const popupMessage = ref("");
 async function checkCode() {
   error.value = "";
 
-  const res = await fetch("/api/secret/check-code", {
+  const res = await fetch("/api/check-code", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ code: inputCode.value })
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      code: inputCode.value
+    })
   });
 
   const data = await res.json();
