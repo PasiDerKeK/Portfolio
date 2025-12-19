@@ -55,7 +55,7 @@ a:hover{ text-decoration: underline; }
     }
 
     .nav {
-        display: none;
+        display: flex;
         position: absolute;
         top: 70px;
         right: 20px;
@@ -64,6 +64,7 @@ a:hover{ text-decoration: underline; }
         padding: 12px;
         box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         flex-direction: column;
+        flex-wrap: wrap;
         gap: 10px;
         z-index: 100;
     }

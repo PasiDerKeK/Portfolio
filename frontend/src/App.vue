@@ -1,4 +1,11 @@
 <script setup>
+import { ref } from "vue";
+
+const menuOpen = ref(false);
+
+function toggleMenu() {
+  menuOpen.value = !menuOpen.value;
+}
 </script>
 
 <template>
@@ -17,7 +24,7 @@
         ☰
       </button>
 
-      <nav class="nav">
+      <nav class="nav" :class="{open: menuOpen}">
         <RouterLink to="/" class="nav-link" active-class="nav-link--active" exact>Home</RouterLink>
         <RouterLink to="/projects" class="nav-link" active-class="nav-link--active">Projekte</RouterLink>
         <RouterLink to="/languages" class="nav-link" active-class="nav-link--active">Sprachen</RouterLink>
