@@ -41,10 +41,10 @@ onMounted(async () => {
         </p>
 
         <div class="chip-row" style="margin-top:10px">
-          <a v-if="profile.github" :href="profile.github" target="_blank" class="chip">
+          <a v-if="profile.github" :href="profile.github" target="_blank" class="btn btn-primary">
             🐙 GitHub
           </a>
-          <a v-if="profile.linkedin" :href="profile.linkedin" target="_blank" class="chip">
+          <a v-if="profile.linkedin" :href="profile.linkedin" target="_blank" class="btn btn-primary">
             💼 LinkedIn
           </a>
         </div>
