@@ -1,5 +1,11 @@
 <script setup>
+import { ref } from "vue";
 import { checkSecretCode } from "../services/api.js";
+
+const inputCode = ref("");
+const error = ref("");
+const showPopup = ref(false);
+const popupMessage = ref("");
 
 async function checkCode() {
   error.value = "";
@@ -14,10 +20,9 @@ async function checkCode() {
       error.value = "❌ Code nicht gültig";
     }
   } catch (e) {
-    error.value = "❌ Serverfehler";
+    error.value = "Serverfehler";
   }
 }
-
 </script>
 
 

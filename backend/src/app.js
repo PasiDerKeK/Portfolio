@@ -4,6 +4,7 @@ import cors from "cors";
 import profileRoutes from "./routes/profileRoutes.js";
 import skillsRoutes from "./routes/skillsRoutes.js";
 import projectRoutes from "./routes/projectRoutes.js";
+import secretRoutes from "./routes/secretRoutes.js";
 
 const app = express();
 
@@ -13,5 +14,6 @@ app.use(express.json());
 app.use("/api/profile", profileRoutes);
 app.use("/api/skills", skillsRoutes);
 app.use("/api/projects", projectRoutes);
+app.use("/api/secret", secretRoutes);
 
 export default app;

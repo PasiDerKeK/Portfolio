@@ -1,4 +1,3 @@
-// backend/src/routes/secretRoutes.js
 import express from "express";
 import codes from "../data/secretCodes.json" with { type: "json" };
 
