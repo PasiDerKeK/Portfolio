@@ -12,6 +12,10 @@
 
     --radius: 16px;
     --shadow: 0 12px 30px rgba(2, 6, 23, .08);
+
+    --nav-active-bg: rgba(37, 99, 235, 0.12);
+    --nav-active-text: #0f172a;
+
 }
 
 .dark {
@@ -25,6 +29,10 @@
     --accent-soft: rgba(96,165,250,.15);
 
     --shadow: 0 10px 30px rgba(0,0,0,.6);
+
+    --nav-active-bg: rgba(96, 165, 250, 0.18);
+    --nav-active-text: #e5e7eb;
+
 }
 
 *{ box-sizing: border-box; margin:0; padding:0; }
@@ -138,7 +146,7 @@ a:hover{ text-decoration: underline; }
     border-radius: 999px;
     border: 1px solid transparent;
     color: var(--muted);
-    background: rgba(255,255,255,.7);
+    background: var(--card);
 }
 .nav-link:hover{
     border-color: var(--border);
@@ -146,9 +154,9 @@ a:hover{ text-decoration: underline; }
     text-decoration: none;
 }
 .nav-link--active{
-    background: var(--accent-soft);
+    background: var(--nav-active-bg);
     border-color: rgba(37,99,235,.35);
-    color: var(--text);
+    color: var(--nav-active-text);
 }
 
 /* Typo helpers */
@@ -250,7 +258,7 @@ a:hover{ text-decoration: underline; }
     padding: 8px 12px;
     border-radius: 10px;
     border: 1px solid var(--border);
-    background: #ffffff;
+    background: var(--card);
     color: var(--text);
     font-size: 13px;
 }

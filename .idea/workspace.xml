@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Darkmode">
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Style change auf darkmode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/style.css" afterDir="false" />
     </list>
@@ -135,7 +135,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="8414000" />
+      <workItem from="1766134658221" duration="8949000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -433,7 +433,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766143541331</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Style change auf darkmode">
+      <option name="closed" value="true" />
+      <created>1766144397029</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1766144397029</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Style change auf darkmode">
+      <option name="closed" value="true" />
+      <created>1766144704553</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1766144704553</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,6 +491,7 @@
     <MESSAGE value="Projects Page code überarbeitung" />
     <MESSAGE value="Lang Page code überarbeitung" />
     <MESSAGE value="Darkmode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Darkmode" />
+    <MESSAGE value="Style change auf darkmode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style change auf darkmode" />
   </component>
 </project>
