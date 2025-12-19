@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Secret Page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,23 +135,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="11996000" />
-    </task>
-    <task id="LOCAL-00015" summary="Bild Portfolio in projects">
-      <option name="closed" value="true" />
-      <created>1766135942375</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1766135942375</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Bild Portfolio in projects">
-      <option name="closed" value="true" />
-      <created>1766136074299</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1766136074299</updated>
+      <workItem from="1766134658221" duration="12109000" />
     </task>
     <task id="LOCAL-00017" summary="Icon geändert">
       <option name="closed" value="true" />
@@ -528,7 +513,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766149611977</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Secret Page">
+      <option name="closed" value="true" />
+      <created>1766149744963</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1766149744963</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Secret Page">
+      <option name="closed" value="true" />
+      <created>1766149822208</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1766149822208</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
