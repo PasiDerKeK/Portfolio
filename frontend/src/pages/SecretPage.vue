@@ -33,7 +33,7 @@ function checkCode() {
           @keyup.enter="checkCode"
           class="secret-input"
       />
-      <button @click="checkCode">OK</button>
+      <button @click="checkCode" class="secret-input">OK</button>
 
       <p v-if="error" class="secret-content">{{ error }}</p>
     </div>
