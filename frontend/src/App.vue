@@ -84,7 +84,7 @@ onMounted(() => {
         </RouterLink>
 
         <RouterLink
-            to="/contact"
+            to="/secret"
             class="nav-link"
             active-class="nav-link--active"
             @click="menuOpen = false"
