@@ -44,8 +44,9 @@ function checkCode() {
         🎄 Ich wünsche dir Frohe Weihnachten 🎁
         <br>
         Und ein Frohes neues Jahr :^)
-        <button @click="showPopup = false" class="btn btn-primary" >Schließen</button>
+
       </div>
+      <button @click="showPopup = false" class="btn btn-primary" >Schließen</button>
     </div>
   </section>
 </template>
