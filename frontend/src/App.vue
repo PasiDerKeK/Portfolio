@@ -19,7 +19,6 @@ function toggleMenu() {
         </div>
       </div>
 
-      <!-- Hamburger Button -->
       <button class="hamburger" @click="toggleMenu">
         ☰
       </button>
