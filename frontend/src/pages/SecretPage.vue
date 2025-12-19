@@ -28,7 +28,7 @@ async function checkCode() {
 
 <template>
   <section class="card secret-box">
-    <h2 class="section-title">🎁 Geheimes Feature</h2>
+    <h2 class="section-title">🎁 Features</h2>
     <div class="secret-box">
       <input
           v-model="inputCode"

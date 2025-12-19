@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Secret codes json auf backend verlagert&#10;Backend prüft den code &#10;Code richtig -&gt; Nachricht wird übergeben&#10;Code falsch -&gt; false">
-      <change beforePath="$PROJECT_DIR$/backend/src/routes/secretRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/secretRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
