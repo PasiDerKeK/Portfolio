@@ -286,14 +286,15 @@ a:hover{ text-decoration: underline; }
 .btn-primary:hover{ opacity: .95; }
 
 .btn-popup{
-    padding-top: 16px;
-    align-items:center;
-    gap:8px;
+    display: block;
+    margin: 16px auto 0;
+    padding: 8px 14px;
     border-radius: 10px;
-    border: 1px solid transparent;;
+    border: 1px solid var(--border);
     background: var(--card);
     color: var(--text);
     font-size: 13px;
+    cursor: pointer;
 }
 
 /* =========================
