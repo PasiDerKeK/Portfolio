@@ -3,7 +3,7 @@ import { ref } from "vue";
 
 const inputCode = ref("");
 const error = ref("");
-const unlocked = ref(false);
+const showPopup = ref(false);
 
 const validCodes = [
   "XMAS2025",
@@ -13,10 +13,10 @@ const validCodes = [
 
 function checkCode() {
   error.value = "";
-  unlocked.value = false;
 
   if (validCodes.includes(inputCode.value.trim())) {
-    unlocked.value = true;
+    showPopup.value = true;
+    error.value = "";
   } else {
     error.value = "❌ Code nicht gültig";
   }
@@ -26,26 +26,23 @@ function checkCode() {
 <template>
   <section class="card secret-box">
     <h2 class="section-title">🎁 Geheimes Feature</h2>
+    <div class="secret-box">
+      <input
+          v-model="code"
+          placeholder="Code eingeben"
+          @keyup.enter="checkCode"
+      />
+      <button @click="checkCode">OK</button>
 
-    <input
-        v-model="inputCode"
-        type="text"
-        placeholder="Code eingeben"
-        class="secret-input"
-        @keyup.enter="checkCode"
-    />
+      <p v-if="error">{{ error }}</p>
+    </div>
 
-    <button class="btn btn-primary" @click="checkCode">
-      OK
-    </button>
-
-    <p v-if="error" class="error-text">{{ error }}</p>
-
-    <!-- 🔓 FREIGESCHALTET -->
-    <div v-if="unlocked" class="secret-content">
-      🎄 Glückwunsch!
-      <br />
-      Du hast das geheime Weihnachts-Feature freigeschaltet 😄
+    <!-- POPUP -->
+    <div v-if="showPopup" class="popup">
+      <div class="popup-inner">
+        🎄 XMAS FEATURE FREIGESCHALTET 🎁
+        <button @click="showPopup = false">Schließen</button>
+      </div>
     </div>
   </section>
 </template>
@@ -57,19 +54,4 @@ function checkCode() {
   text-align: center;
 }
 
-.secret-input{
-  width: 100%;
-  padding: 10px 14px;
-  margin: 14px 0;
-  border-radius: 10px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  color: var(--text);
-}
-
-.secret-content{
-  margin-top: 16px;
-  font-weight: 700;
-  color: var(--accent);
-}
 </style>
