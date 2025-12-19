@@ -45,7 +45,7 @@ function checkCode() {
         <br>
         Und ein Frohes neues Jahr :^)
       </div>
-      <button @click="showPopup = false" class="btn-primary btn-popup" >Schließen</button>
+      <button @click="showPopup = false" class="btn-popup" >Schließen</button>
     </div>
   </section>
 </template>
