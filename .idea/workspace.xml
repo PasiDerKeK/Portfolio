@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Bild Portfolio in projects">
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/Projects_Portfolio.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/Projects_Portfolio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/projects.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/public/Q.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/public/Q.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kuhnert/IdeaProjects/Portfolio/frontend/src/data",
+    "last_opened_file_path": "C:/Users/kuhnert/IdeaProjects/Portfolio/frontend/public",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +75,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\public" />
       <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\src\data" />
       <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\backend\src\data" />
       <recent name="C:\Website\Portfolio\frontend\public" />
       <recent name="C:\Website\Portfolio\frontend\src" />
-      <recent name="C:\Website\Portfolio\frontend\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kuhnert\IdeaProjects\Portfolio\frontend\public" />
@@ -132,7 +134,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="1268000" />
+      <workItem from="1766134658221" duration="1603000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -246,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1766135807096</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Bild Portfolio in projects">
+      <option name="closed" value="true" />
+      <created>1766135942375</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766135942375</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Bild Portfolio in projects">
+      <option name="closed" value="true" />
+      <created>1766136074299</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1766136074299</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
