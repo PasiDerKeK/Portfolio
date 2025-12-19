@@ -257,7 +257,7 @@ a:hover{ text-decoration: underline; }
     gap:8px;
     padding: 8px 12px;
     border-radius: 10px;
-    border: 1px solid var(--border);
+    border: 1px solid transparent;;
     background: var(--card);
     color: var(--text);
     font-size: 13px;
