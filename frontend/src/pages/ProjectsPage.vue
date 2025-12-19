@@ -8,16 +8,7 @@ const error = ref("");
 
 // Fallback-Projekte (wenn Backend leer ist)
 const fallbackProjects = [
-  {
-    "id": 1,
-    "title": "Portfolio",
-    "description": "Vue + Node Portfolio für Bewerbungen.",
-    "type": "Full-Stack",
-    "stack": ["Vue", "Node.js", "Express", "CSS", "Git/GitHub"],
-    "github": "https://github.com/pasiderkek/portfolio",
-    "demo": "https://www.qnert.de",
-    "image": "/projects/Projects_Portfolio.png"
-  }
+  { }
 ];
 
 onMounted(async () => {
