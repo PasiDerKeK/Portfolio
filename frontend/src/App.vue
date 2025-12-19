@@ -82,6 +82,11 @@ onMounted(() => {
         >
           Kontakt
         </RouterLink>
+
+        <RouterLink to="/secret" style="opacity:0.3;font-size:12px">
+          🎁
+        </RouterLink>
+
       </nav>
 
     </header>

@@ -4,6 +4,7 @@ import HomePage from "../pages/HomePage.vue";
 import ProjectsPage from "../pages/ProjectsPage.vue";
 import LanguagesPage from "../pages/LanguagesPage.vue";
 import ContactPage from "../pages/ContactPage.vue";
+import SecretPage from "../pages/SecretPage.vue";
 
 const router = createRouter({
     history: createWebHistory("/"),
@@ -11,7 +12,8 @@ const router = createRouter({
         { path: "/", component: HomePage },
         { path: "/projects", component: ProjectsPage },
         { path: "/languages", component: LanguagesPage },
-        { path: "/contact", component: ContactPage }
+        { path: "/contact", component: ContactPage },
+        { path: "/secret", component: SecretPage },
     ]
 });
 
