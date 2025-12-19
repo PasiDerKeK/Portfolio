@@ -24,12 +24,45 @@ function toggleMenu() {
         ☰
       </button>
 
-      <nav class="nav" :class="{open: menuOpen}">
-        <RouterLink to="/" class="nav-link" active-class="nav-link--active" exact>Home</RouterLink>
-        <RouterLink to="/projects" class="nav-link" active-class="nav-link--active">Projekte</RouterLink>
-        <RouterLink to="/languages" class="nav-link" active-class="nav-link--active">Sprachen</RouterLink>
-        <RouterLink to="/contact" class="nav-link" active-class="nav-link--active">Kontakt</RouterLink>
+      <nav class="nav" :class="{ open: menuOpen }">
+        <RouterLink
+            to="/"
+            class="nav-link"
+            active-class="nav-link--active"
+            exact
+            @click="menuOpen = false"
+        >
+          Home
+        </RouterLink>
+
+        <RouterLink
+            to="/projects"
+            class="nav-link"
+            active-class="nav-link--active"
+            @click="menuOpen = false"
+        >
+          Projekte
+        </RouterLink>
+
+        <RouterLink
+            to="/languages"
+            class="nav-link"
+            active-class="nav-link--active"
+            @click="menuOpen = false"
+        >
+          Sprachen
+        </RouterLink>
+
+        <RouterLink
+            to="/contact"
+            class="nav-link"
+            active-class="nav-link--active"
+            @click="menuOpen = false"
+        >
+          Kontakt
+        </RouterLink>
       </nav>
+
     </header>
 
     <main>

@@ -56,7 +56,7 @@ a:hover{ text-decoration: underline; }
     }
 
     .nav {
-        display: none;              /* 👈 WICHTIG */
+        display: none;
         position: absolute;
         top: 70px;
         right: 20px;
@@ -70,7 +70,7 @@ a:hover{ text-decoration: underline; }
     }
 
     .nav.open {
-        display: flex;              /* 👈 nur wenn offen */
+        display: flex;
     }
 }
 
