@@ -117,8 +117,3 @@ onMounted(async () => {
     </div>
   </section>
 </template>
-
-<style scoped>
-/* nur LanguagesPage */
-
-</style>

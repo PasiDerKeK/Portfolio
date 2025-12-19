@@ -1,11 +1,29 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
 const menuOpen = ref(false);
+const isDark = ref(false);
 
 function toggleMenu() {
   menuOpen.value = !menuOpen.value;
 }
+
+function toggleDark() {
+  isDark.value = !isDark.value;
+  updateTheme();
+}
+
+function updateTheme() {
+  document.documentElement.classList.toggle("dark", isDark.value);
+  localStorage.setItem("theme", isDark.value ? "dark" : "light");
+}
+
+onMounted(() => {
+  const saved = localStorage.getItem("theme");
+  isDark.value = saved === "dark";
+  updateTheme();
+});
+
 </script>
 
 <template>
@@ -18,6 +36,10 @@ function toggleMenu() {
           <p class="brand-subtitle">Softwareentwickler – Python · C# · Java · Node.js · Vue</p>
         </div>
       </div>
+
+      <button class="theme-toggle" @click="toggleDark">
+        {{ isDark ? "☀️" : "🌙" }}
+      </button>
 
       <button class="hamburger" @click="toggleMenu">
         ☰

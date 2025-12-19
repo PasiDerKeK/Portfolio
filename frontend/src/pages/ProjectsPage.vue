@@ -96,8 +96,3 @@ onMounted(async () => {
     </div>
   </section>
 </template>
-
-<style scoped>
-/* Nur Projects-Page Styling – ändert nichts an Home */
-
-</style>
