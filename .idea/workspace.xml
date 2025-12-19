@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Secretpage -&gt; Überschrift geändert">
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/ProjectsPage.vue" afterDir="false" />
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="ProjectsPage.vue &quot;Vorschaubild&quot; -&gt; &quot;In Arbeit...&quot; geändert">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/projects.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766165239305</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ProjectsPage.vue &quot;Vorschaubild&quot; -&gt; &quot;In Arbeit...&quot; geändert">
+      <option name="closed" value="true" />
+      <created>1766165331616</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1766165331616</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +269,7 @@
     <MESSAGE value="Secret codes auf json verlagert" />
     <MESSAGE value="Secret codes json auf backend verlagert&#10;Backend prüft den code &#10;Code richtig -&gt; Nachricht wird übergeben&#10;Code falsch -&gt; false" />
     <MESSAGE value="Secretpage -&gt; Überschrift geändert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Secretpage -&gt; Überschrift geändert" />
+    <MESSAGE value="ProjectsPage.vue &quot;Vorschaubild&quot; -&gt; &quot;In Arbeit...&quot; geändert" />
+    <option name="LAST_COMMIT_MESSAGE" value="ProjectsPage.vue &quot;Vorschaubild&quot; -&gt; &quot;In Arbeit...&quot; geändert" />
   </component>
 </project>

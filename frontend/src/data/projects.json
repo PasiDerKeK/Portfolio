@@ -28,5 +28,15 @@
     "github": "https://github.com/PasiDerKeK/LaidBackReallife-Basic",
     "demo": null,
     "image": null
+  },
+  {
+    "id": 4,
+    "title": "Organizer",
+    "description": "Web-App mit Kalender und Aufgabenplaner für einen geordneten Alltag. Mit Login und Datenbanken.",
+    "type": "Web-application",
+    "stack": ["Vue", "Node.js", "MySQL", "Git/GitHub", "Private"],
+    "github": null,
+    "demo": null,
+    "image": null
   }
 ]
