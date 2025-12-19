@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="frontend/public/GitHub_Readme.png" width="1000" />
+</p>
 # 🚀 Developer Portfolio – Vue & Node.js
 
 Modernes, modulares **Developer-Portfolio** als Single Page Application (SPA),  
@@ -13,9 +16,6 @@ meine Kenntnisse in **Frontend-, Backend- und Full-Stack-Entwicklung**.
 > Live Website:  
 > [🌐 Qnert](https://www.qnert.de/)
 >
-<p align="center">
-  <img src="frontend/public/GitHub_Readme.png" width="1000" />
-</p>
 
 ---
 
