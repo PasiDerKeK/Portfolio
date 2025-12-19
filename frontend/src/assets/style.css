@@ -7,19 +7,11 @@
 
     --accent: #2563eb;
     --accent-soft: rgba(37,99,235,.10);
+    --home-accent: #2563eb;
+    --home-accent2: #14b8a6;
 
     --radius: 16px;
     --shadow: 0 12px 30px rgba(2, 6, 23, .08);
-}
-
-:root.dark {
-    --bg: #0f172a;
-    --card: #020617;
-    --text: #e5e7eb;
-    --muted: #94a3b8;
-    --border: #1e293b;
-    --accent: #38bdf8;
-    --accent-soft: rgba(56,189,248,.15);
 }
 
 .dark {
@@ -273,7 +265,7 @@ a:hover{ text-decoration: underline; }
 /* =========================
    HOME PAGE ONLY STYLES
    ========================= */
-
+/*
 .home{
     --home-bg: #f6f7fb;
     --home-card: #ffffff;
@@ -283,14 +275,14 @@ a:hover{ text-decoration: underline; }
     --home-shadow: 0 10px 25px rgba(2, 6, 23, 0.08);
     --home-accent: #2563eb;
     --home-accent2: #14b8a6;
-}
+}*/
 
 /* Override helpers ONLY inside home */
 
 .home .card{
-    background: var(--home-card);
-    border: 1px solid var(--home-border);
-    box-shadow: var(--home-shadow);
+    background: var(--card);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow);
     border-radius: 18px;
     padding: 18px;
 }
@@ -299,19 +291,19 @@ a:hover{ text-decoration: underline; }
     font-size: 34px;
     line-height: 1.1;
     letter-spacing: -0.02em;
-    color: var(--home-text);
+    color: var(--text);
 }
 
 .home .p{
     font-size: 14px;
-    color: var(--home-muted);
+    color: var(--muted);
 }
 
 .home .section-title{
     font-size: 12px;
     letter-spacing: .12em;
     text-transform: uppercase;
-    color: var(--home-muted);
+    color: var(--muted);
     margin-bottom: 10px;
 }
 
@@ -350,7 +342,7 @@ a:hover{ text-decoration: underline; }
     padding: 10px 14px;
     border-radius: 999px;
     font-size: 13px;
-    border: 1px solid var(--home-border);
+    border: 1px solid var(--border);
     background: #fff;
     cursor: pointer;
     transition: transform .12s ease-out, box-shadow .12s ease-out;
@@ -380,9 +372,9 @@ a:hover{ text-decoration: underline; }
     font-size: 12px;
     padding: 6px 10px;
     border-radius: 999px;
-    border: 1px solid var(--home-border);
+    border: 1px solid var(--border);
     background: rgba(15, 23, 42, 0.02);
-    color: var(--home-muted);
+    color: var(--muted);
 }
 
 .lang-title{
