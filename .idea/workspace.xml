@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Secret codes json auf backend verlagert&#10;Backend prüft den code &#10;Code richtig -&gt; Nachricht wird übergeben&#10;Code falsch -&gt; false">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/routes/secretRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/secretRoutes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/services/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
@@ -236,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766156522338</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Secret codes json auf backend verlagert&#10;Backend prüft den code &#10;Code richtig -&gt; Nachricht wird übergeben&#10;Code falsch -&gt; false">
+      <option name="closed" value="true" />
+      <created>1766156864926</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1766156864926</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -19,7 +19,9 @@ export async function fetchProjects() {
 export async function checkSecretCode(code) {
     const res = await fetch("/api/secret/check-code", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+            "Content-Type": "application/json"
+        },
         body: JSON.stringify({ code })
     });
 

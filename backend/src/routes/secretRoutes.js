@@ -7,7 +7,7 @@ router.post("/check-code", (req, res) => {
     const { code } = req.body;
 
     if (!code) {
-        return res.json({ success: false });
+        return res.status(400).json({ success: false });
     }
 
     const message = codes[code.trim()];

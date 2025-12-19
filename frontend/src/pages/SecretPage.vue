@@ -19,8 +19,8 @@ async function checkCode() {
     } else {
       error.value = "❌ Code nicht gültig";
     }
-  } catch (e) {
-    error.value = "Serverfehler";
+  } catch {
+    error.value = "❌ Serverfehler";
   }
 }
 </script>
