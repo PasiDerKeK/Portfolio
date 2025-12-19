@@ -41,8 +41,10 @@ function checkCode() {
     <!-- POPUP -->
     <div v-if="showPopup" class="popup">
       <div class="popup-inner">
-        🎄 XMAS FEATURE FREIGESCHALTET 🎁
-        <button @click="showPopup = false">Schließen</button>
+        🎄 Ich wünsche dir Frohe Weihnachten 🎁
+        <\br>
+        Und ein Frohes neues Jahr :^)
+        <button @click="showPopup = false" class="btn btn-primary" >Schließen</button>
       </div>
     </div>
   </section>
