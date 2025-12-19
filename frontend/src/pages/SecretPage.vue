@@ -1,33 +1,23 @@
 <script setup>
-import { ref } from "vue";
-
-const inputCode = ref("");
-const error = ref("");
-const showPopup = ref(false);
-const popupMessage = ref("");
+import { checkSecretCode } from "../services/api.js";
 
 async function checkCode() {
   error.value = "";
 
-  const res = await fetch("/api/check-code", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      code: inputCode.value
-    })
-  });
+  try {
+    const res = await checkSecretCode(inputCode.value);
 
-  const data = await res.json();
-
-  if (data.success) {
-    popupMessage.value = data.message;
-    showPopup.value = true;
-  } else {
-    error.value = "❌ Code nicht gültig";
+    if (res.success) {
+      popupMessage.value = res.message;
+      showPopup.value = true;
+    } else {
+      error.value = "❌ Code nicht gültig";
+    }
+  } catch (e) {
+    error.value = "❌ Serverfehler";
   }
 }
+
 </script>
 
 

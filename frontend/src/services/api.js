@@ -15,3 +15,19 @@ export async function fetchSkills() {
 export async function fetchProjects() {
     return projects;
 }
+
+export async function checkSecretCode(code) {
+    const res = await fetch("/api/check-code", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ code })
+    });
+
+    if (!res.ok) {
+        throw new Error("API error");
+    }
+
+    return await res.json();
+}
