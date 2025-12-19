@@ -7,7 +7,7 @@
     "stack": ["Vue", "Node.js", "Express", "CSS", "Git/GitHub"],
     "github": "https://github.com/pasiderkek/portfolio",
     "demo": "https://www.qnert.de",
-    "image": "frontend/src/assets/Projects_Portfolio.png"
+    "image": "/public/Projects_Portfolio.png"
   },
   {
     "id": 2,
