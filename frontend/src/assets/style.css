@@ -266,7 +266,7 @@ a:hover{ text-decoration: underline; }
 .btn-primary{
     background: var(--card);
     border-color: var(--card);
-    color: white;
+    color: var(--text);
 }
 .btn-primary:hover{ opacity: .95; }
 
