@@ -32,6 +32,7 @@ function checkCode() {
         type="text"
         placeholder="Code eingeben"
         class="secret-input"
+        @keyup.enter="checkCode"
     />
 
     <button class="btn btn-primary" @click="checkCode">
