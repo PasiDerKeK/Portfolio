@@ -8,8 +8,8 @@ const error = ref("");
 
 // Deine echten Sprachen
 const humanLanguages = [
-  { name: "Polnisch", level: "Erstsprache" },
-  { name: "Deutsch", level: "Zweitsprache" },
+  { name: "Deutsch", level: "Erstsprache" },
+  { name: "Polnisch", level: "Zweitsprache" },
   { name: "Englisch", level: "Schulisch erlernte Fremdsprache" }
 ];
 
