@@ -1,33 +1,25 @@
 <script setup>
 import { ref } from "vue";
+import secretCodes from "../data/secretCodes.json";
 
 const inputCode = ref("");
 const error = ref("");
 const showPopup = ref(false);
 const popupMessage = ref("");
 
-const validCodes = [
-  "XMAS2025",
-  "SILVESTER25"
-];
-
 function checkCode() {
   error.value = "";
   const code = inputCode.value.trim();
 
-  if (code === "XMAS2025") {
-    popupMessage.value = "🎄 Ich wünsche dir Frohe Weihnachten 🎁<br>Und ein Frohes neues Jahr :^)";
+  if (secretCodes[code]) {
+    popupMessage.value = secretCodes[code];
     showPopup.value = true;
-  }
-  else if (code === "SILVESTER25") {
-    popupMessage.value = "🎆 FROHES NEUES JAHR 🎆";
-    showPopup.value = true;
-  }
-  else {
+  } else {
     error.value = "❌ Code nicht gültig";
   }
 }
 </script>
+
 
 <template>
   <section class="card secret-box">
