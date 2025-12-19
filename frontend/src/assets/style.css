@@ -52,10 +52,11 @@ a:hover{ text-decoration: underline; }
 @media (max-width: 768px) {
     .hamburger {
         display: block;
+        z-index: 101;
     }
 
     .nav {
-        display: flex;
+        display: none;              /* 👈 WICHTIG */
         position: absolute;
         top: 70px;
         right: 20px;
@@ -64,18 +65,14 @@ a:hover{ text-decoration: underline; }
         padding: 12px;
         box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         flex-direction: column;
-        flex-wrap: wrap;
         gap: 10px;
         z-index: 100;
     }
 
     .nav.open {
-        display: flex;
+        display: flex;              /* 👈 nur wenn offen */
     }
 }
-
-
-
 
 .main-header{
     display:flex;
