@@ -342,7 +342,7 @@ a:hover{ text-decoration: underline; }
 }
 
 /* Buttons */
-
+/*
 .home .btn{
     display: inline-flex;
     align-items: center;
@@ -366,7 +366,7 @@ a:hover{ text-decoration: underline; }
     color: #fff;
     border-color: transparent;
 }
-
+*/
 /* Chips */
 
 .home .chips{
