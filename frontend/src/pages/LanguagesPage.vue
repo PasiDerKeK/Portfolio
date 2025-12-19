@@ -2,7 +2,7 @@
 import { ref, onMounted } from "vue";
 import { fetchSkills } from "../services/api.js";
 
-const skills = ref(null);
+const skills = ref([]);
 const loading = ref(true);
 const error = ref("");
 

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="bild für github hinzugefügt">
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/LanguagesPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/LanguagesPage.vue" afterDir="false" />
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Sprachen getauscht Deutsch und Polnisch">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +131,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="2308000" />
+      <workItem from="1766134658221" duration="3111000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -285,7 +285,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766136826306</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Sprachen getauscht Deutsch und Polnisch">
+      <option name="closed" value="true" />
+      <created>1766137003966</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1766137003966</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,7 @@
     <MESSAGE value="Icon geändert" />
     <MESSAGE value="public/projects angelegt und bild verschoben" />
     <MESSAGE value="bild für github hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="bild für github hinzugefügt" />
+    <MESSAGE value="Sprachen getauscht Deutsch und Polnisch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sprachen getauscht Deutsch und Polnisch" />
   </component>
 </project>
