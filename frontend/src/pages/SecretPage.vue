@@ -1,18 +1,24 @@
 <script setup>
 import { ref } from "vue";
-import secretCodes from "../data/secretCodes.json";
 
 const inputCode = ref("");
 const error = ref("");
 const showPopup = ref(false);
 const popupMessage = ref("");
 
-function checkCode() {
+async function checkCode() {
   error.value = "";
-  const code = inputCode.value.trim();
 
-  if (secretCodes[code]) {
-    popupMessage.value = secretCodes[code];
+  const res = await fetch("/api/secret/check-code", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ code: inputCode.value })
+  });
+
+  const data = await res.json();
+
+  if (data.success) {
+    popupMessage.value = data.message;
     showPopup.value = true;
   } else {
     error.value = "❌ Code nicht gültig";
@@ -40,7 +46,6 @@ function checkCode() {
     <div v-if="showPopup" class="popup">
       <div class="popup-inner">
         <div v-html="popupMessage"></div>
-
         <button
             @click="showPopup = false"
             class="btn-popup"
