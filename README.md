@@ -14,7 +14,7 @@ meine Kenntnisse in **Frontend-, Backend- und Full-Stack-Entwicklung**.
 > [🌐 Qnert](https://www.qnert.de/)
 >
 <p align="center">
-  <img src="frontend/public/projects/Projects_Portfolio.png" width="1000" heigth="250" />
+  <img src="frontend/public/projects/Projects_Portfolio.png" heigth="250" width="1000" />
 </p>
 
 ---
