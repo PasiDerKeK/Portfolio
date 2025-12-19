@@ -37,6 +37,45 @@ a:hover{ text-decoration: underline; }
 }
 
 /* Header & Nav */
+
+
+/* Hamburger Button */
+.hamburger {
+    display: none;
+    font-size: 26px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: white;
+        border-radius: 14px;
+        padding: 12px;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        flex-direction: column;
+        gap: 10px;
+        z-index: 100;
+    }
+
+    .nav.open {
+        display: flex;
+    }
+}
+
+
+
+
 .main-header{
     display:flex;
     justify-content:space-between;
