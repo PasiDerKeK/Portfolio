@@ -342,7 +342,7 @@ a:hover{ text-decoration: underline; }
 }
 
 /* Buttons */
-/*
+
 .home .btn{
     display: inline-flex;
     align-items: center;
@@ -351,7 +351,7 @@ a:hover{ text-decoration: underline; }
     border-radius: 999px;
     font-size: 13px;
     border: 1px solid var(--border);
-    background: #fff;
+    background: var(--card);
     cursor: pointer;
     transition: transform .12s ease-out, box-shadow .12s ease-out;
 }
@@ -363,12 +363,12 @@ a:hover{ text-decoration: underline; }
 
 .home .btn-primary{
     background: linear-gradient(135deg, var(--home-accent), var(--home-accent2));
-    color: #fff;
+    color: var(--text);
     border-color: transparent;
 }
-*/
+
 /* Chips */
-/*
+
 .home .chips{
     display: flex;
     flex-wrap: wrap;
@@ -384,7 +384,7 @@ a:hover{ text-decoration: underline; }
     background: rgba(15, 23, 42, 0.02);
     color: var(--muted);
 }
-*/
+
 .lang-title{
     font-size: 22px;
     font-weight: 800;
