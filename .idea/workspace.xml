@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="projects.json angepasst">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/data/profile.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/data/projects.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/data/skills.json" beforeDir="false" />
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Data von backend auf frontend umgestellt,&#10;Dynamisch -&gt; Statisch">
       <change beforePath="$PROJECT_DIR$/frontend/src/data/projects.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/projects.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/skills.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +129,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="626000" />
+      <workItem from="1766134658221" duration="716000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -224,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766046387785</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Data von backend auf frontend umgestellt,&#10;Dynamisch -&gt; Statisch">
+      <option name="closed" value="true" />
+      <created>1766135292959</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766135292959</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +254,7 @@
     <MESSAGE value="Finally ready" />
     <MESSAGE value="Language Changes" />
     <MESSAGE value="projects.json angepasst" />
-    <option name="LAST_COMMIT_MESSAGE" value="projects.json angepasst" />
+    <MESSAGE value="Data von backend auf frontend umgestellt,&#10;Dynamisch -&gt; Statisch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data von backend auf frontend umgestellt,&#10;Dynamisch -&gt; Statisch" />
   </component>
 </project>

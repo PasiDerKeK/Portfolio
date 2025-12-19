@@ -28,5 +28,45 @@
     "github": "https://github.com/PasiDerKeK/LaidBackReallife-Basic",
     "demo": null,
     "image": null
+  },
+  {
+    "id": 4,
+    "title": "Portfolio-AP",
+    "description": "Lernprojekt mit Node + Vue.",
+    "type": "Learning Project",
+    "stack": ["Vue", "Node.js", "Express", "Git/GitHub"],
+    "github": "https://github.com/Bohnbena/portfolio-AP",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": 5,
+    "title": "JAVA Spigot Plugin",
+    "description": "Java Plugin über die Spigot API für Minecraft. ",
+    "type": "Gameserver Plugin",
+    "stack": ["JAVA", "MySQL", "Kotlin", "Git/GitHub"],
+    "github": "https://github.com/PasiDerKeK/LaidBackReallife-Basic",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": 6,
+    "title": "Portfolio-AP",
+    "description": "Lernprojekt mit Node + Vue.",
+    "type": "Learning Project",
+    "stack": ["Vue", "Node.js", "Express", "Git/GitHub"],
+    "github": "https://github.com/Bohnbena/portfolio-AP",
+    "demo": null,
+    "image": null
+  },
+  {
+    "id": 7,
+    "title": "JAVA Spigot Plugin",
+    "description": "Java Plugin über die Spigot API für Minecraft. ",
+    "type": "Gameserver Plugin",
+    "stack": ["JAVA", "MySQL", "Kotlin", "Git/GitHub"],
+    "github": "https://github.com/PasiDerKeK/LaidBackReallife-Basic",
+    "demo": null,
+    "image": null
   }
 ]
