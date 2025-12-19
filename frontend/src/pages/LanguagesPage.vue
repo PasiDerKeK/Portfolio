@@ -120,43 +120,5 @@ onMounted(async () => {
 
 <style scoped>
 /* nur LanguagesPage */
-.lang-title{
-  font-size: 22px;
-  font-weight: 800;
-  margin: 6px 0 12px;
-}
-.lang-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 18px;
-}
-.lang-sub{
-  font-size: 14px;
-  font-weight: 800;
-  margin-bottom: 8px;
-}
-.lang-list{
-  padding-left: 18px;
-  line-height: 1.6;
-}
-.lang-more{
-  margin-top: 16px;
-}
 
-/* Chip Layout mit Icon */
-.chip--icon{
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-}
-.chip-icon{
-  width: 16px;
-  height: 16px;
-  object-fit: contain;
-  display: inline-block;
-}
-
-@media (max-width: 820px){
-  .lang-grid{ grid-template-columns: 1fr; }
-}
 </style>
