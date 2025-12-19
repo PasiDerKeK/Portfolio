@@ -4,20 +4,26 @@ import { ref } from "vue";
 const inputCode = ref("");
 const error = ref("");
 const showPopup = ref(false);
+const popupMessage = ref("");
 
 const validCodes = [
   "XMAS2025",
-  "HOHOHO",
-  "PASIDEV"
+  "SILVESTER25"
 ];
 
 function checkCode() {
   error.value = "";
+  const code = inputCode.value.trim();
 
-  if (validCodes.includes(inputCode.value.trim())) {
+  if (code === "XMAS2025") {
+    popupMessage.value = "🎄 Ich wünsche dir Frohe Weihnachten 🎁<br>Und ein Frohes neues Jahr :^)";
     showPopup.value = true;
-    error.value = "";
-  } else {
+  }
+  else if (code === "SILVESTER25") {
+    popupMessage.value = "🎆 FROHES NEUES JAHR 🎆";
+    showPopup.value = true;
+  }
+  else {
     error.value = "❌ Code nicht gültig";
   }
 }
@@ -40,12 +46,8 @@ function checkCode() {
 
     <!-- POPUP -->
     <div v-if="showPopup" class="popup">
-      <div class="popup-inner">
-        🎄 Ich wünsche dir Frohe Weihnachten 🎁
-        <br>
-        Und ein Frohes neues Jahr :^)
-        <button @click="showPopup = false" class="btn-popup" >Schließen</button>
-      </div>
+      <div class="popup-inner" v-html="popupMessage"></div>
+      <button @click="showPopup = false" class="btn-popup">Schließen</button>
     </div>
   </section>
 </template>
