@@ -135,15 +135,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="12109000" />
-    </task>
-    <task id="LOCAL-00017" summary="Icon geändert">
-      <option name="closed" value="true" />
-      <created>1766136285387</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1766136285387</updated>
+      <workItem from="1766134658221" duration="12195000" />
     </task>
     <task id="LOCAL-00018" summary="public/projects angelegt und bild verschoben">
       <option name="closed" value="true" />
@@ -529,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766149822208</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Secret Page">
+      <option name="closed" value="true" />
+      <created>1766149858690</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1766149858690</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

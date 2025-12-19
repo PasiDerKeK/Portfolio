@@ -233,6 +233,7 @@ a:hover{ text-decoration: underline; }
     justify-content:center;
     color: var(--muted);
     font-size: 12px;
+    user-select: none;
 }
 
 .project-img img{
@@ -284,6 +285,7 @@ a:hover{ text-decoration: underline; }
     background: var(--card);
     color: var(--text);
     font-size: 13px;
+    user-select: none;
 }
 .btn:hover{ text-decoration:none; border-color: rgba(37,99,235,.35); }
 .btn-primary{
