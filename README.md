@@ -12,7 +12,10 @@ meine Kenntnisse in **Frontend-, Backend- und Full-Stack-Entwicklung**.
 
 > Live Website:  
 > [🌐 Qnert](https://www.qnert.de/)
-> ![Portfolio Preview](frontent/public/projects/Projects_Portfolio.png)
+>
+<p align="center">
+  <img src="assets/preview.png" width="700" />
+</p>
 
 ---
 
