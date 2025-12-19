@@ -46,8 +46,15 @@ function checkCode() {
 
     <!-- POPUP -->
     <div v-if="showPopup" class="popup">
-      <div class="popup-inner" v-html="popupMessage">
-        <button @click="showPopup = false" class="btn-popup">Schließen</button>
+      <div class="popup-inner">
+        <div v-html="popupMessage"></div>
+
+        <button
+            @click="showPopup = false"
+            class="btn-popup"
+        >
+          Schließen
+        </button>
       </div>
     </div>
   </section>
