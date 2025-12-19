@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Sprachen getauscht Deutsch und Polnisch">
+    <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Skills reparieren">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/data/skills.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/data/skills.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +132,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="3111000" />
+      <workItem from="1766134658221" duration="3185000" />
     </task>
     <task id="LOCAL-00001" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -293,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766137003966</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Skills reparieren">
+      <option name="closed" value="true" />
+      <created>1766138228923</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1766138228923</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +336,7 @@
     <MESSAGE value="public/projects angelegt und bild verschoben" />
     <MESSAGE value="bild für github hinzugefügt" />
     <MESSAGE value="Sprachen getauscht Deutsch und Polnisch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sprachen getauscht Deutsch und Polnisch" />
+    <MESSAGE value="Skills reparieren" />
+    <option name="LAST_COMMIT_MESSAGE" value="Skills reparieren" />
   </component>
 </project>
