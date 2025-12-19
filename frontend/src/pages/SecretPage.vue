@@ -31,10 +31,11 @@ function checkCode() {
           v-model="code"
           placeholder="Code eingeben"
           @keyup.enter="checkCode"
+          class="secret-input"
       />
       <button @click="checkCode">OK</button>
 
-      <p v-if="error">{{ error }}</p>
+      <p v-if="error" class="secret-content">{{ error }}</p>
     </div>
 
     <!-- POPUP -->
@@ -54,4 +55,19 @@ function checkCode() {
   text-align: center;
 }
 
+.secret-input{
+  width: 100%;
+  padding: 10px 14px;
+  margin: 14px 0;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+}
+
+.secret-content{
+  margin-top: 16px;
+  font-weight: 700;
+  color: var(--accent);
+}
 </style>

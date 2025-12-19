@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7bda1290-27fb-498a-acc1-6bb64606d9d9" name="Changes" comment="Secret Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/assets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/assets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/SecretPage.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,15 +135,7 @@
       <workItem from="1765991468741" duration="3784000" />
       <workItem from="1766043061264" duration="986000" />
       <workItem from="1766045349401" duration="1597000" />
-      <workItem from="1766134658221" duration="10940000" />
-    </task>
-    <task id="LOCAL-00002" summary="Try to Publish">
-      <option name="closed" value="true" />
-      <created>1765723112044</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1765723112044</updated>
+      <workItem from="1766134658221" duration="11024000" />
     </task>
     <task id="LOCAL-00003" summary="Try to Publish">
       <option name="closed" value="true" />
@@ -530,7 +521,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766148350446</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Secret Page">
+      <option name="closed" value="true" />
+      <created>1766148695486</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1766148695486</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
