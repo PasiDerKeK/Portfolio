@@ -377,6 +377,7 @@ a:hover{ text-decoration: underline; }
     align-items: center;
     gap: 8px;
     padding: 10px 14px;
+    margin-top: 12px;
     border-radius: 999px;
     font-size: 13px;
     border: 1px solid var(--border);
