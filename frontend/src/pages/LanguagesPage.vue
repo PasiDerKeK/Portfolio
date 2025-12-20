@@ -10,6 +10,7 @@ const error = ref("");
 const humanLanguages = [
   { name: "Deutsch", level: "Erstsprache" },
   { name: "Polnisch", level: "Zweitsprache" },
+  { name: "Russisch", level: "Grundkenntnisse" },
   { name: "Englisch", level: "Schulisch erlernte Fremdsprache" }
 ];
 
