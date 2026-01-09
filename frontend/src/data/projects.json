@@ -34,7 +34,7 @@
     "title": "Organizer",
     "description": "Web-App mit Kalender und Aufgabenplaner für einen geordneten Alltag. Mit Login und Datenbanken.",
     "type": "Web-application",
-    "stack": ["Vue", "Node.js", "MySQL", "Git/GitHub", "Private"],
+    "stack": ["Vue", "Node.js", "MySQL", "Git/GitHub", "Private", "Learing"],
     "github": null,
     "demo": null,
     "image": null
